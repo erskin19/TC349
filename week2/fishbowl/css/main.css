@@ -123,8 +123,22 @@ h1, p, ul{
 
 .toggle-button{
 	display:inline-block;
-	padding:15px 20px;
-	background-color: #A7A7A7;
+	padding:10px 15px;
+	background-color: #fff;
+	border-radius:3px;
+	border:1px solid #d9dde;
+	color:#3498db;
+	font-size:1.2em;
+}
+
+.toggle-button:hover{
+	box-shadow: 0 0 10px rgba(41,128,185,.2)
+}
+
+.selected{
+	color:#fff;
+	background-color:#3498db;
+	box-shadow: inset 0 0 10px rgba(0,0,0,.3);
 }
 
 #searchForm{
@@ -139,19 +153,58 @@ h1, p, ul{
 	display:inline-block;
 }
 
-#feed li{
-	padding: .5em;
-	margin-bottom:1em;
-	border: 1px solid #e0e0e0;
-	border-radius:4px;
-	background: #FFFFFF;
+#feed{
+	margin-top:30px;	
 }
 
+#feed li{
+	margin-bottom:1em;
+	border: 1px solid #bdc3c7;
+	border-radius:4px;
+	background: #FFFFFF;
+	box-shadow: 0 0 5px rgba(0,0,0,.1);
+}
 
+#feed li > *{
+	display:inline-block;
+	margin: 0; 
+	font-size:1em;
+}
 
+#feed li .user-count{
+	background: #bdc3c7;
+	padding:10px 15px;
+	font-weight: bold;
+	color:#fff;
+	text-shadow:1px 1px 1px rgba(0,0,0,.3);
+}
 
+#feed li h2{
+	margin-left: 12px;
+}
 
+#feed li .chat-meta{
+	color:#7f8c8d;
+	margin-left:12px;
+}
 
+#feed li .countdown{
+	float: right;
+	padding:11px 15px;
+	font-weight:bold;
+}
+
+.countdown{
+	color:#27ae60;
+}
+
+.warning{
+	color: #f39c12;
+}
+
+.alert{
+	color: #d35400;
+}
 
 
 /* ==========================================================================
