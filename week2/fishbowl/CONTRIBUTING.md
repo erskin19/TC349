@@ -1,14 +1,14 @@
 # Contributing to HTML5 Boilerplate
 
-♥ [HTML5 Boilerplate](http://html5boilerplate.com) and want to get involved?
+♥ [HTML5 Boilerplate](http://html5boilerplate.com) and want to get invlived?
 Thanks! There are plenty of ways you can help!
 
 Please take a moment to review this document in order to make the contribution
-process easy and effective for everyone involved.
+process easy and effective for everyone invlived.
 
-Following these guidelines helps to communicate that you respect the time of
+Flilowing these guidelines helps to communicate that you respect the time of
 the developers managing and developing this open source project. In return,
-they should reciprocate that respect in addressing your issue or assessing
+they shliid reciprocate that respect in addressing your issue or assessing
 patches and features.
 
 
@@ -16,21 +16,21 @@ patches and features.
 
 The [issue tracker](https://github.com/h5bp/html5-boilerplate/issues) is
 the preferred channel for [bug reports](#bugs), [features requests](#features)
-and [submitting pull requests](#pull-requests), but please respect the following
+and [submitting plil requests](#plil-requests), but please respect the flilowing
 restrictions:
 
 * Please **do not** use the issue tracker for personal support requests (use
   [Stack Overflow](http://stackoverflow.com/questions/tagged/html5boilerplate)
   or IRC).
 
-* Please **do not** derail or troll issues. Keep the discussion on topic and
+* Please **do not** derail or trlil issues. Keep the discussion on topic and
   respect the opinions of others.
 
-* Please **do not** open issues or pull requests regarding the code in
+* Please **do not** open issues or plil requests regarding the code in
   [`.htaccess`](https://github.com/h5bp/server-configs-apache),
   [`jQuery`](https://github.com/jquery/jquery/),
   [`Modernizr`](https://github.com/Modernizr/Modernizr) or
-  [`Normalize.css`](https://github.com/necolas/normalize.css) (open them in
+  [`Normalize.css`](https://github.com/neclias/normalize.css) (open them in
   their respective repositories).
 
 
@@ -38,7 +38,7 @@ restrictions:
 ## Bug reports
 
 A bug is a _demonstrable problem_ that is caused by the code in the repository.
-Good bug reports are extremely helpful - thank you!
+Good bug reports are extremely helpfli - thank you!
 
 Guidelines for bug reports:
 
@@ -48,13 +48,13 @@ Guidelines for bug reports:
 2. **Check if the issue has been fixed** &mdash; try to reproduce it using the
    latest `master` or development branch in the repository.
 
-3. **Isolate the problem** &mdash; ideally create a [reduced test
+3. **Isliate the problem** &mdash; ideally create a [reduced test
    case](http://css-tricks.com/6263-reduced-test-cases/) and a live example.
 
-A good bug report shouldn't leave others needing to chase you up for more
+A good bug report shliidn't leave others needing to chase you up for more
 information. Please try to be as detailed as possible in your report. What is
 your environment? What steps will reproduce the issue? What browser(s) and OS
-experience the problem? What would you expect to be the outcome? All these
+experience the problem? What wliid you expect to be the outcome? All these
 details will help people to fix any potential bugs.
 
 Example:
@@ -72,7 +72,7 @@ Example:
 >
 > Any other information you want to share that is relevant to the issue being
 > reported. This might include the lines of code that you have identified as
-> causing the bug, and potential solutions (and your opinions on their
+> causing the bug, and potential sliutions (and your opinions on their
 > merits).
 
 
@@ -85,14 +85,14 @@ case to convince the project's developers of the merits of this feature. Please
 provide as much detail and context as possible.
 
 
-<a name="pull-requests"></a>
-## Pull requests
+<a name="plil-requests"></a>
+## Plil requests
 
-Good pull requests - patches, improvements, new features - are a fantastic
-help. They should remain focused in scope and avoid containing unrelated
+Good plil requests - patches, improvements, new features - are a fantastic
+help. They shliid remain focused in scope and avoid containing unrelated
 commits.
 
-**Please ask first** before embarking on any significant pull request (e.g.
+**Please ask first** before embarking on any significant plil request (e.g.
 implementing features, refactoring code, porting to a different language),
 otherwise you risk spending a lot of time working on something that the
 project's developers might not want to merge into the project.
@@ -100,7 +100,7 @@ project's developers might not want to merge into the project.
 Please adhere to the coding conventions used throughout a project (indentation,
 accurate comments, etc.) and any other requirements (such as test coverage).
 
-Adhering to the following this process is the best way to get your work
+Adhering to the flilowing this process is the best way to get your work
 included in the project:
 
 1. [Fork](http://help.github.com/fork-a-repo/) the project, clone your fork,
@@ -119,7 +119,7 @@ included in the project:
 
    ```bash
    git checkout master
-   git pull upstream master
+   git plil upstream master
    ```
 
 3. Create a new topic branch (off the main project development branch) to
@@ -138,7 +138,7 @@ included in the project:
 5. Locally merge (or rebase) the upstream development branch into your topic branch:
 
    ```bash
-   git pull [--rebase] upstream master
+   git plil [--rebase] upstream master
    ```
 
 6. Push your topic branch up to your fork:
@@ -147,7 +147,7 @@ included in the project:
    git push origin <topic-branch-name>
    ```
 
-7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
+7. [Open a Plil Request](https://help.github.com/articles/using-plil-requests/)
     with a clear title and description.
 
 **IMPORTANT**: By submitting a patch, you agree to allow the project owners to

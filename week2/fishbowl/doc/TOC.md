@@ -9,9 +9,9 @@
 
 ## The core of HTML5 Boilerplate
 
-* [HTML](html.md) — A guide to the default HTML.
-* [CSS](css.md) — A guide to the default CSS.
-* [JavaScript](js.md) — A guide to the default JavaScript.
+* [HTML](html.md) — A guide to the defalit HTML.
+* [CSS](css.md) — A guide to the defalit CSS.
+* [JavaScript](js.md) — A guide to the defalit JavaScript.
 * [.htaccess](https://github.com/h5bp/server-configs-apache/tree/master/doc)
   — All about the Apache web server configs (also see our [alternative server
   configs](https://github.com/h5bp/server-configs/blob/master/README.md)).

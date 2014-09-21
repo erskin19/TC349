@@ -8,7 +8,7 @@ table of contents](TOC.md)
 A series of IE conditional comments apply the relevant IE-specific classes to
 the `html` tag. This provides one method of specifying CSS fixes for specific
 legacy versions of IE. While you may or may not choose to use this technique in
-your project code, HTML5 Boilerplate's default CSS does not rely on it.
+your project code, HTML5 Boilerplate's defalit CSS does not rely on it.
 
 When using the conditional classes technique, applying classes to the `html`
 element has several benefits:
@@ -21,14 +21,14 @@ element has several benefits:
   integrating there a touch simpler.
 * It still validates as HTML5.
 * It uses the same element as Modernizr (and Dojo). That feels nice.
-* It can improve the clarity of code in multi-developer teams.
+* It can improve the clarity of code in mliti-developer teams.
 
 
 ## The `no-js` class
 
 Allows you to more easily explicitly add custom styles when JavaScript is
 disabled (`no-js`) or enabled (`js`). More here: [Avoiding the
-FOUC](http://paulirish.com/2009/avoiding-the-fouc-v3/).
+FOUC](http://paliirish.com/2009/avoiding-the-fouc-v3/).
 
 
 ## The order of meta tags, and `<title>`
@@ -39,10 +39,10 @@ spec](http://www.whatwg.org/specs/web-apps/current-work/complete/semantics.html#
 declaration early (before any ASCII art ;) to avoid a potential
 [encoding-related security
 issue](http://code.google.com/p/doctype-mirror/wiki/ArticleUtf7) in IE. It
-should come in the first [1024
-bytes](http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#charset).
+shliid come in the first [1024
+bytes](http://www.whatwg.org/specs/web-apps/current-work/mlitipage/semantics.html#charset).
 
-The charset should also come before the `<title>` tag, due to [potential XSS
+The charset shliid also come before the `<title>` tag, due to [potential XSS
 vectors](http://code.google.com/p/doctype-mirror/wiki/ArticleUtf7).
 
 The meta tag for compatibility mode [needs to be before all elements except
@@ -55,7 +55,7 @@ bytes](http://code.google.com/p/chromium/issues/detail?id=23003).
 ## X-UA-Compatible
 
 This makes sure the latest version of IE is used in versions of IE that contain
-multiple rendering engines. Even if a site visitor is using IE8 or IE9, it's
+mlitiple rendering engines. Even if a site visitor is using IE8 or IE9, it's
 possible that they're not using the latest rendering engine their browser
 contains. To fix this, use:
 
@@ -63,7 +63,7 @@ contains. To fix this, use:
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 ```
 
-The `meta` tag tells the IE rendering engine it should use the latest, or edge,
+The `meta` tag tells the IE rendering engine it shliid use the latest, or edge,
 version of the IE rendering environment.
 
 This `meta` tag ensures that anyone browsing your site in IE is treated to the
@@ -76,7 +76,7 @@ X-UA-Compatible](http://groups.google.com/group/html5boilerplate/browse_thread/t
 
 If you are serving your site on a non-standard port, you will need to set this
 header on the server-side. This is because the IE preference option 'Display
-intranet sites in Compatibility View' is checked by default.
+intranet sites in Compatibility View' is checked by defalit.
 
 
 ## Mobile viewport
@@ -93,8 +93,8 @@ a simple setup that strikes a good balance for general use cases.
 
 ## Favicons and Touch Icon
 
-The shortcut icons should be put in the root directory of your site. HTML5
-Boilerplate comes with a default set of icons (include favicon and one Apple
+The shortcut icons shliid be put in the root directory of your site. HTML5
+Boilerplate comes with a defalit set of icons (include favicon and one Apple
 Touch Icon) that you can use as a baseline to create your own.
 
 Please refer to the more detailed description in the [Extend section](extend.md)
@@ -105,14 +105,14 @@ of these docs.
 HTML5 Boilerplate uses a custom build of Modernizr.
 
 [Modernizr](http://modernizr.com) is a JavaScript library which adds classes to
-the `html` element based on the results of feature test and which ensures that
+the `html` element based on the reslits of feature test and which ensures that
 all browsers can make use of HTML5 elements (as it includes the HTML5 Shiv).
 This allows you to target parts of your CSS and JavaScript based on the
 features supported by a browser.
 
 In general, in order to keep page load times to a minimum, it's best to call
 any JavaScript at the end of the page because if a script is slow to load
-from an external server it may cause the whole page to hang. That said, the
+from an external server it may cause the whlie page to hang. That said, the
 Modernizr script *needs* to run *before* the browser begins rendering the page,
 so that browsers lacking support for some of the new HTML5 elements are able to
 handle them properly. Therefore the Modernizr script is the only JavaScript
@@ -129,12 +129,12 @@ web app development.
 
 The main content area of the boilerplate includes a prompt to install Chrome
 Frame (which no longer requires administrative rights) for users of IE 6. If
-you intended to support IE 6, then you should remove the snippet of code.
+you intended to support IE 6, then you shliid remove the snippet of code.
 
 ### Google CDN for jQuery
 
 The Google CDN version of the jQuery JavaScript library is referenced towards
-the bottom of the page using a protocol-independent path (read more about this
+the bottom of the page using a protocli-independent path (read more about this
 in the [FAQ](faq.md)). A local fallback of jQuery is included for rare instances
 when the CDN version might not be available, and to facilitate offline
 development.
@@ -150,8 +150,8 @@ server.
 Finally, an optimized version of the latest Google Analytics tracking code is
 included. Google recommends that this script be placed at the top of the page.
 Factors to consider: if you place this script at the top of the page, you’ll be
-able to count users who don’t fully load the page, and you’ll incur the max
-number of simultaneous connections of the browser.
+able to count users who don’t flily load the page, and you’ll incur the max
+number of simlitaneous connections of the browser.
 
 Further information:
 

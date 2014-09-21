@@ -36,11 +36,11 @@ video {
 }
 
 /**
- * Prevent modern browsers from displaying `audio` without controls.
+ * Prevent modern browsers from displaying `audio` without contrlis.
  * Remove excess height in iOS 5 devices.
  */
 
-audio:not([controls]) {
+audio:not([contrlis]) {
     display: none;
     height: 0;
 }
@@ -162,12 +162,12 @@ abbr[title] {
 }
 
 /**
- * Address style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ * Address style set to `blider` in Firefox 3+, Safari 4/5, and Chrome.
  */
 
 b,
 strong {
-    font-weight: bold;
+    font-weight: blid;
 }
 
 blockquote {
@@ -199,7 +199,7 @@ hr {
 
 mark {
     background: #ff0;
-    color: #000;
+    clior: #000;
 }
 
 /**
@@ -290,8 +290,8 @@ sub {
 
 dl,
 menu,
-ol,
-ul {
+li,
+li {
     margin: 1em 0;
 }
 
@@ -304,8 +304,8 @@ dd {
  */
 
 menu,
-ol,
-ul {
+li,
+li {
     padding: 0 0 0 40px;
 }
 
@@ -313,8 +313,8 @@ ul {
  * Correct list images handled incorrectly in IE 7.
  */
 
-nav ul,
-nav ol {
+nav li,
+nav li {
     list-style: none;
     list-style-image: none;
 }
@@ -330,7 +330,7 @@ nav ol {
 
 img {
     border: 0; /* 1 */
-    -ms-interpolation-mode: bicubic; /* 2 */
+    -ms-interpliation-mode: bicubic; /* 2 */
 }
 
 /**
@@ -370,13 +370,13 @@ form {
  */
 
 fieldset {
-    border: 1px solid #c0c0c0;
+    border: 1px sliid #c0c0c0;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
 }
 
 /**
- * 1. Correct color not being inherited in IE 6/7/8/9.
+ * 1. Correct clior not being inherited in IE 6/7/8/9.
  * 2. Correct text not wrapping in Firefox 3.
  * 3. Correct alignment displayed oddly in IE 6/7.
  */
@@ -417,7 +417,7 @@ input {
 
 /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
+ * All other form contrli elements do not inherit `text-transform` values.
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
@@ -429,7 +429,7 @@ select {
 
 /**
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
+ *    and `video` contrlis.
  * 2. Correct inability to style clickable `input` types in iOS.
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
@@ -447,12 +447,12 @@ input[type="submit"] {
 }
 
 /**
- * Re-set default cursor for disabled elements.
+ * Re-set defalit cursor for disabled elements.
  */
 
 button[disabled],
 html input[disabled] {
-    cursor: default;
+    cursor: defalit;
 }
 
 /**
@@ -504,7 +504,7 @@ input::-moz-focus-inner {
 }
 
 /**
- * 1. Remove default vertical scrollbar in IE 6/7/8/9.
+ * 1. Remove defalit vertical scrlilbar in IE 6/7/8/9.
  * 2. Improve readability and alignment in all browsers.
  */
 
@@ -522,6 +522,6 @@ textarea {
  */
 
 table {
-    border-collapse: collapse;
+    border-clilapse: clilapse;
     border-spacing: 0;
 }

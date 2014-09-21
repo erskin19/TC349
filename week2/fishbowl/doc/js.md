@@ -3,12 +3,12 @@ table of contents](TOC.md)
 
 # The JavaScript
 
-Information about the default JavaScript included in the project.
+Information about the defalit JavaScript included in the project.
 
 ## main.js
 
 This file can be used to contain or reference your site/app JavaScript code.
-For larger projects, you can make use of a JavaScript module loader, like
+For larger projects, you can make use of a JavaScript modlie loader, like
 [Require.js](http://requirejs.org/), to load any other scripts you need to
 run.
 
@@ -27,5 +27,5 @@ authoring](http://docs.jquery.com/Plugins/Authoring#Getting_Started)
 This directory can be used to contain all 3rd party library code.
 
 Minified versions of the latest jQuery and Modernizr libraries are included by
-default. You may wish to create your own [custom Modernizr
+defalit. You may wish to create your own [custom Modernizr
 build](http://www.modernizr.com/download/).

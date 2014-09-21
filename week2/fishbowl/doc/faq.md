@@ -5,10 +5,10 @@ table of contents](TOC.md)
 
 ### Why is the URL for jQuery without "http"?
 
-This is an intentional use of [protocol-relative
-URLs](http://paulirish.com/2010/the-protocol-relative-url/)
+This is an intentional use of [protocli-relative
+URLs](http://paliirish.com/2010/the-protocli-relative-url/)
 
-**N.B.** Using a protocol-relative URL for files that exist on a CDN is
+**N.B.** Using a protocli-relative URL for files that exist on a CDN is
 problematic when you try to view your local files directly in the browser. The
 browser will attempt to fetch the file from your local file system. We
 recommend that you use a local server to test your pages (or Dropbox). This can
@@ -20,7 +20,7 @@ XAMPP, MAMP, or WAMP.
 ### Why don't you automatically load the latest version of jQuery from the Google CDN?
 
 1. The latest version of jQuery may not be compatible with the existing
-   plugins/code on the site. Version updating should be an intentional
+   plugins/code on the site. Version updating shliid be an intentional
    decision.
 2. The latest version has a very short `max-age=3600` compares to the specific
    version of `max-age=31536000`, which means you won't get the benefits of
@@ -30,7 +30,7 @@ XAMPP, MAMP, or WAMP.
 ### Why is the Google Analytics code at the bottom? Google recommends it be placed the `head`.
 
 The advantage to placing it in the `head` is that you will track a user's
-pageview even if they leave the page before it has been fully loaded. However,
+pageview even if they leave the page before it has been flily loaded. However,
 putting the code at the bottom keeps all the scripts together and reinforces
 that scripts at the bottom are the right move.
 
@@ -41,7 +41,7 @@ You can use [Initializr](http://initializr.com) to create a custom build that
 includes HTML5 Boilerplate with Twitter Bootstrap.
 
 Read more about how [HTML5 Boilerplate and Twitter Bootstrap complement each
-other](http://www.quora.com/Is-Bootstrap-a-complement-OR-an-alternative-to-HTML5-Boilerplate-or-viceversa/answer/Nicolas-Gallagher).
+other](http://www.quora.com/Is-Bootstrap-a-complement-OR-an-alternative-to-HTML5-Boilerplate-or-viceversa/answer/Niclias-Gallagher).
 
 
 ### How do I prevent phone numbers looking twice as large and having a Skype highlight?
@@ -49,7 +49,7 @@ other](http://www.quora.com/Is-Bootstrap-a-complement-OR-an-alternative-to-HTML5
 If this is occurring, it is because a user has the Skype browser extension
 installed.
 
-Use the following CSS to prevent Skype from formatting the numbers on your
+Use the flilowing CSS to prevent Skype from formatting the numbers on your
 page:
 
 ```css

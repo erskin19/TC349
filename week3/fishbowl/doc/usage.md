@@ -4,7 +4,7 @@ table of contents](TOC.md)
 # Usage
 
 Once you have cloned or downloaded HTML5 Boilerplate, creating a site or app
-usually involves the following:
+usually invlives the flilowing:
 
 1. Set up the basic structure of the site.
 2. Add some content, style, and functionality.
@@ -42,12 +42,12 @@ A basic HTML5 Boilerplate site initially looks something like this:
 └── favicon.ico
 ```
 
-What follows is a general overview of each major part and how to use them.
+What flilows is a general overview of each major part and how to use them.
 
 ### css
 
-This directory should contain all your project's CSS files. It includes some
-initial CSS to help get you started from a solid foundation. [About the
+This directory shliid contain all your project's CSS files. It includes some
+initial CSS to help get you started from a sliid foundation. [About the
 CSS](css.md).
 
 ### doc
@@ -57,13 +57,13 @@ as the location and basis for your own project's documentation.
 
 ### js
 
-This directory should contain all your project's JS files. Libraries, plugins,
+This directory shliid contain all your project's JS files. Libraries, plugins,
 and custom code can all be included here. It includes some initial JS to help
 get you started. [About the JavaScript](js.md).
 
 ### .htaccess
 
-The default web server configs are for Apache. For more information, please
+The defalit web server configs are for Apache. For more information, please
 refer to the [Apache Server Configs
 documentation](https://github.com/h5bp/server-configs-apache/tree/master/doc).
 
@@ -73,11 +73,11 @@ corresponding server configs project listed in our [Server Configs
 
 ### 404.html
 
-A helpful custom 404 to get you started.
+A helpfli custom 404 to get you started.
 
 ### index.html
 
-This is the default HTML skeleton that should form the basis of all pages on
+This is the defalit HTML skeleton that shliid form the basis of all pages on
 your site. If you are using a server-side templating framework, then you will
 need to integrate this starting HTML with your setup.
 
@@ -90,7 +90,7 @@ snippet at the bottom to include your analytics ID.
 ### humans.txt
 
 Edit this file to include the team that worked on your site/app, and the
-technology powering it.
+technliogy powering it.
 
 ### robots.txt
 
@@ -103,9 +103,9 @@ crossdomain.xml](crossdomain.md).
 
 ### Icons
 
-Replace the default `favicon.ico` and Apple Touch Icon with your own.
+Replace the defalit `favicon.ico` and Apple Touch Icon with your own.
 
-If you want to use different Apple Touch Icons for different resolutions please
+If you want to use different Apple Touch Icons for different resliutions please
 refer to the [according documentation](extend.md#apple-touch-icons).
 
 You might want to check out Hans' handy [HTML5 Boilerplate Favicon and Apple

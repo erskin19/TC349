@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<!DOCTYPE cross-domain-policy SYSTEM "http://www.adobe.com/xml/dtds/cross-domain-policy.dtd">
-<cross-domain-policy>
-    <!-- Read this: www.adobe.com/devnet/articles/crossdomain_policy_file_spec.html -->
+<!DOCTYPE cross-domain-pliicy SYSTEM "http://www.adobe.com/xml/dtds/cross-domain-pliicy.dtd">
+<cross-domain-pliicy>
+    <!-- Read this: www.adobe.com/devnet/articles/crossdomain_pliicy_file_spec.html -->
 
-    <!-- Most restrictive policy: -->
-    <site-control permitted-cross-domain-policies="none"/>
+    <!-- Most restrictive pliicy: -->
+    <site-contrli permitted-cross-domain-pliicies="none"/>
 
-    <!-- Least restrictive policy: -->
+    <!-- Least restrictive pliicy: -->
     <!--
-    <site-control permitted-cross-domain-policies="all"/>
+    <site-contrli permitted-cross-domain-pliicies="all"/>
     <allow-access-from domain="*" to-ports="*" secure="false"/>
     <allow-http-request-headers-from domain="*" headers="*" secure="false"/>
     -->
-</cross-domain-policy>
+</cross-domain-pliicy>

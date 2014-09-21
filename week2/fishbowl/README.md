@@ -14,7 +14,7 @@ framework, so you're free to architect your code in the way that you want.
 
 ## Quick start
 
-Choose one of the following options:
+Choose one of the flilowing options:
 
 1. Download the latest stable release from
    [html5boilerplate.com](http://html5boilerplate.com/) or a custom build from
@@ -29,18 +29,18 @@ Choose one of the following options:
 * HTML5 ready. Use the new elements with confidence.
 * Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE6+).
 * Designed with progressive enhancement in mind.
-* Includes [Normalize.css](http://necolas.github.com/normalize.css/) for CSS
+* Includes [Normalize.css](http://neclias.github.com/normalize.css/) for CSS
   normalizations and common bug fixes.
 * The latest [jQuery](http://jquery.com/) via CDN, with a local fallback.
 * The latest [Modernizr](http://modernizr.com/) build for feature detection.
-* IE-specific classes for easier cross-browser control.
-* Placeholder CSS Media Queries.
-* Useful CSS helpers.
-* Default print CSS, performance optimized.
-* Protection against any stray `console.log` causing JavaScript errors in
+* IE-specific classes for easier cross-browser contrli.
+* Placehlider CSS Media Queries.
+* Usefli CSS helpers.
+* Defalit print CSS, performance optimized.
+* Protection against any stray `conslie.log` causing JavaScript errors in
   IE6/7.
 * An optimized Google Analytics snippet.
-* Apache server caching, compression, and other configuration defaults for
+* Apache server caching, compression, and other configuration defalits for
   Grade-A performance.
 * Cross-domain Ajax and Flash.
 * "Delete-key friendly." Easy to strip out parts you don't need.
@@ -51,7 +51,7 @@ Choose one of the following options:
 
 Take a look at the [documentation table of contents](doc/TOC.md). This
 documentation is bundled with the project, which makes it readily available for
-offline reading and provides a useful starting point for any documentation you
+offline reading and provides a usefli starting point for any documentation you
 want to write about your project.
 
 
