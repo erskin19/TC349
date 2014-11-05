@@ -1,0 +1,29 @@
+.heading{
+	height:250px;
+    background-color: #A6A6B0;
+}
+ 
+.heading .icon{
+    width:60px; 
+    margin: 0 450px;
+    padding: 0;
+    display: inline-block;
+    @include opacity(0.75);
+    &:hover {
+           @include opacity(1);
+    }
+}
+
+.heading h1{
+    text-align:center;
+    color: #090637;
+    margin: 0;
+    font-size:5em;
+}
+
+.heading h2{
+    text-align:center;
+    color: #090637;
+    margin: 0;
+    font-size:2em;
+}
