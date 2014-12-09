@@ -1,0 +1,85 @@
+#crafts b {
+    margin:10px 20px; 
+    display:block;
+    font-size:1.5em;
+    text-shadow: 0 0 3px #5E0200;
+    color:#fff;
+}
+
+#crafts div{
+    width:80%;
+    border: solid #491500 10px;
+    border-color: #491500;
+    border-radius: 5px;
+    background:#8E3230;
+    margin:20px auto;
+}
+
+#crafts #windmills img{
+    height: 200px;
+    border: solid #fff 3px;
+    border-color: #fff; 
+    margin: 20px 47px;
+}
+
+#crafts #birdhouses img{
+    height: 200px;
+    border: solid #fff 3px;
+    border-color: #fff; 
+    margin: 20px 38px;
+}
+
+#crafts #metals img{
+    width: 33%;
+    border: solid #fff 3px;
+    border-color: #fff; 
+    margin: 20px 55px;
+}
+
+#crafts #other img{
+    width: 33%;
+    border: solid #fff 3px;
+    border-color: #fff; 
+    margin: 20px 55px;
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px){
+    #crafts b {
+        display:block;
+    margin:10px auto; 
+    font-size:1em;
+        text-align: center;
+}
+
+#crafts div{
+     display:block;
+    width:80%;
+    margin:20px auto;
+}
+
+#crafts #windmills img{
+     display:block;
+    height: auto;
+    width:70%;
+    margin: 20px auto;
+}
+
+#crafts #birdhouses img{
+     display:block;
+    height: auto;
+    width:70%;
+    margin: 20px auto;
+}
+
+#crafts #metals img{
+     display:block;
+    width: 70%;
+    margin: 20px auto;
+}
+
+#crafts #other img{
+     display:block;
+    width: 70%;
+    margin: 20px auto;
+}
+}

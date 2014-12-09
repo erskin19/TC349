@@ -1,0 +1,31 @@
+#furniture b {
+    text-align: center;
+    margin:20px auto; 
+    display:block;
+    font-size:2em;
+    text-shadow: 0 0 3px #5E0200;
+    color:#fff;
+}
+
+#furniture .swing{
+    height: 200px;
+    margin: 25px 0 25px 16px;
+    border: solid #491500 8px;
+    border-color: #491500;
+    border-radius:20px;
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px){
+    #furniture b {
+    margin:10px auto; 
+    font-size:1em;
+}
+
+#furniture .swing{
+    display:block;
+    height: auto;
+    width: 80%;
+    margin: 10px auto;
+}
+    
+}

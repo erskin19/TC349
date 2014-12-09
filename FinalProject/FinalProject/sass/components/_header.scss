@@ -1,0 +1,27 @@
+#header b{
+    margin: auto;
+    text-align: center;
+    display:block;
+    font-size: 4.4em;
+    color:#FFF;
+}
+
+#header p{
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+    color:#FFF;
+}
+#header a{
+ color:#FFF;   
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+#header b{
+    font-size: 2em;
+}
+
+#header p{
+    font-size: 1.2em;
+}
+}

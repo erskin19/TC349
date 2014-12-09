@@ -1,0 +1,71 @@
+#carvings b {
+    text-align: center;
+    margin:20px auto; 
+    display:block;
+    font-size:2em;
+    text-shadow: 0 0 3px #5E0200;
+    color:#fff;
+}
+#carvings a {
+    text-shadow: 0 0 3px #5E0200;
+    color:#fff;
+}
+
+#carvings #carving1, #carving3{
+    height:400px;
+    margin:20px 60px;
+    float:left;
+    border: solid #5E0200 10px;
+    border-color: #5E0200;
+    border-radius:5px;
+    display:block;
+}
+
+#carvings #carving2, #carving4{
+    height:400px;
+    margin:20px 60px;
+    float:right;
+    border: solid #5E0200 10px;
+    border-color: #5E0200;
+    border-radius:5px;
+    display:block;
+    
+}
+
+#carvings #carving5, #carving6{
+    width: 80%;
+    margin:20px auto;
+    border: solid #5E0200 10px;
+    border-color: #5E0200;
+    display:block;
+}
+ 
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px){
+    #carvings b {
+    margin:10px auto; 
+    font-size:1em;
+}
+
+#carvings #carving1, #carving3{
+    width:80%;
+    height:auto;
+    margin:10px auto;
+    float:none;
+}
+
+#carvings #carving2, #carving4{
+    width:80%;
+    height:auto;
+    margin:10px auto;
+    float:none;
+    
+}
+
+#carvings #carving5, #carving6{
+    width:80%;
+    height:auto;
+    margin:10px auto;
+    float:none;
+}
+    
+}

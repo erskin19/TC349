@@ -1,0 +1,24 @@
+#directions b {
+    text-align: center;
+    margin:20px auto; 
+    display:block;
+    font-size:2em;
+    text-shadow: 0 0 3px #5E0200;
+    color:#fff;
+}
+
+#googleMap iframe{
+    display:block;
+    margin:30px auto;
+    align-content: center;
+    border: solid #8E3230 5px;
+    border-color: #8E3230; 
+    width:85%;
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px){
+    #directions b {
+    margin:10px auto; 
+    font-size:1em;
+}
+}
